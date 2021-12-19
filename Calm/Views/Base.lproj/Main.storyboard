@@ -93,19 +93,45 @@
                                     <action selector="startButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chy-LB-UoX"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xJb-p9-AnY">
+                                <rect key="frame" x="34" y="352" width="322" height="40"/>
+                                <color key="tintColor" red="0.55904483800000004" green="0.1616097987" blue="0.14507460589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8Dn-LR-c7y"/>
+                                </constraints>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Stay as calm as you can." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pu-ii-XBP" userLabel="Temperature Label">
+                                <rect key="frame" x="16" y="144" width="358" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Pht-zO-N46"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cu5-n7-KdE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="k9u-cr-wWL" secondAttribute="trailing" id="2XF-FD-Iw5"/>
+                            <constraint firstItem="5Pu-ii-XBP" firstAttribute="top" secondItem="cu5-n7-KdE" secondAttribute="top" constant="100" id="Ckr-AX-bFA"/>
                             <constraint firstAttribute="bottom" secondItem="k9u-cr-wWL" secondAttribute="bottom" id="EUp-Ka-5Y3"/>
                             <constraint firstItem="cu5-n7-KdE" firstAttribute="bottom" secondItem="p5s-ik-oAp" secondAttribute="bottom" constant="100" id="Ehd-CA-Pqk"/>
+                            <constraint firstItem="cu5-n7-KdE" firstAttribute="trailing" secondItem="5Pu-ii-XBP" secondAttribute="trailing" constant="16" id="P11-sn-Dgm"/>
                             <constraint firstItem="k9u-cr-wWL" firstAttribute="top" secondItem="uIb-yL-d3i" secondAttribute="top" id="TnM-nK-0P7"/>
+                            <constraint firstItem="5Pu-ii-XBP" firstAttribute="leading" secondItem="cu5-n7-KdE" secondAttribute="leading" constant="16" id="VeL-Hb-IgU"/>
+                            <constraint firstItem="xJb-p9-AnY" firstAttribute="leading" secondItem="cu5-n7-KdE" secondAttribute="leading" constant="34" id="fni-K1-AHJ"/>
+                            <constraint firstItem="xJb-p9-AnY" firstAttribute="top" secondItem="5Pu-ii-XBP" secondAttribute="bottom" constant="8" id="kF5-dT-yx4"/>
+                            <constraint firstItem="cu5-n7-KdE" firstAttribute="trailing" secondItem="xJb-p9-AnY" secondAttribute="trailing" constant="34" id="nDD-sp-sx5"/>
                             <constraint firstItem="p5s-ik-oAp" firstAttribute="centerX" secondItem="uIb-yL-d3i" secondAttribute="centerX" id="qOP-3H-ZJd"/>
                             <constraint firstItem="k9u-cr-wWL" firstAttribute="leading" secondItem="uIb-yL-d3i" secondAttribute="leading" id="tHN-eW-hwe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="K6u-pp-phk"/>
+                    <connections>
+                        <outlet property="messageLabel" destination="5Pu-ii-XBP" id="SSd-fE-WLg"/>
+                        <outlet property="progressBar" destination="xJb-p9-AnY" id="g2g-DC-Ziy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GrT-mN-hCI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

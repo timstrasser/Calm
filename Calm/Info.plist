@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSMotionUsageDescription</key>
+	<string>AirPodsPro Motion Tracking</string>
 </dict>
 </plist>
