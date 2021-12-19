@@ -85,7 +85,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
-                                <state key="normal" title="Go Back" backgroundImage="Rectangle">
+                                <state key="normal" title="Go Back" backgroundImage="Rectangle-Gray">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -114,6 +114,7 @@
     </scenes>
     <resources>
         <image name="Rectangle" width="322" height="68"/>
+        <image name="Rectangle-Gray" width="175" height="59"/>
         <image name="background" width="662" height="662"/>
         <image name="background-stars" width="659" height="659"/>
         <systemColor name="systemBackgroundColor">

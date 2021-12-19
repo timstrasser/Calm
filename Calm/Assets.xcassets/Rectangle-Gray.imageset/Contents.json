@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "filename" : "Rectangle_gray.pdf",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 22,
+          "left" : 25,
+          "right" : 31,
+          "top" : 27
+        },
+        "center" : {
+          "height" : 10,
+          "mode" : "tile",
+          "width" : 119
+        },
+        "mode" : "9-part"
+      }
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
