@@ -13,6 +13,7 @@
 		7E1E6D13276F5333007E4DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E6D11276F5333007E4DE9 /* Main.storyboard */; };
 		7E1E6D15276F5335007E4DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E6D14276F5335007E4DE9 /* Assets.xcassets */; };
 		7E1E6D18276F5335007E4DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E6D16276F5335007E4DE9 /* LaunchScreen.storyboard */; };
+		7E353060278B3DB10020A8CB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35305F278B3DB10020A8CB /* ResultViewController.swift */; };
 		7E82327C276F7A0D00666AF3 /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82327B276F7A0D00666AF3 /* MeditationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		7E1E6D14276F5335007E4DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1E6D17276F5335007E4DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E1E6D19276F5335007E4DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E35305F278B3DB10020A8CB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		7E82327B276F7A0D00666AF3 /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 			children = (
 				7E1E6D0F276F5333007E4DE9 /* ViewController.swift */,
 				7E82327B276F7A0D00666AF3 /* MeditationViewController.swift */,
+				7E35305F278B3DB10020A8CB /* ResultViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E353060278B3DB10020A8CB /* ResultViewController.swift in Sources */,
 				7E1E6D10276F5333007E4DE9 /* ViewController.swift in Sources */,
 				7E1E6D0C276F5333007E4DE9 /* AppDelegate.swift in Sources */,
 				7E82327C276F7A0D00666AF3 /* MeditationViewController.swift in Sources */,
